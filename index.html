@@ -19,7 +19,7 @@
         <fieldset>
 
         <label for="">Ano de Nascimento:
-        <input type="text">
+        <input type="number" name="txtano" id="txtano" min="0">
     </label>
         
         <label for="">Sexo:
@@ -27,7 +27,7 @@
         <input type="radio" name="sexo" id="sexo-feminino">Feminino</input>
     </label>
 
-    <button type="submit">Verificar</button>
+    <input type="button" id="button" value="Verificar" onclick="verificar()">
 
     </fieldset>
     </form>
